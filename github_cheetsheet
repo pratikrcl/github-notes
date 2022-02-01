@@ -1,0 +1,42 @@
+=================
+Basi commands
+=================
+ls
+touch index.html
+rm index.html
+mkdir folder_name
+rmdir folder_name
+shit : wq (to exit)
+=================
+to create commit
+=================
+git init
+git status
+git add file_name
+git add .
+git commit -m "first commit"
+git log
+git log --oneline
+=================
+to manipulate commit
+=================
+git checkout 4afec27
+git revert 4afec27
+git reset 4afec27
+======================
+to manipulate branches
+======================
+git checkout master (to switch branch)
+git branch feature-1 (to create new branch)
+git branch -a  (to view all branches)
+git merge feature-1
+git branch -d feature-1
+git branch -D feature-1
+=================
+to push to github
+=================
+git config --global user.name "pratik randhir"
+git config --global user.email "pratikrandhir@gmail.com"
+git push http://git_url master
+git remote add origin http://git_url
+git pull <remote branch URL>   
